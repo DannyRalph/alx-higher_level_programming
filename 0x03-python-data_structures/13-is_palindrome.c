@@ -53,8 +53,8 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		{
 			if (iter_times == index)
 				return (current);
-			current = current->next
-				++iter_times;
+			current = current->next;
+			++iter_times;
 		}
 	}
 
@@ -73,9 +73,9 @@ size_t listint_len(const listint_t *h)
 
 	while (h != NULL)
 	{
-		++lenght;
+		++length;
 		h = h->next;
 	}
 
-	return (length)
+	return (length);
 }
