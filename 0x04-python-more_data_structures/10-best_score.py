@@ -7,5 +7,3 @@ def best_score(a_dictionary):
                 return (maximum)
             elif max(a_dictionary) is None or len(a_dictionary) == 0:
                 return (None)
-    elif len(a_dictionary) <= 0:
-        return (None)
