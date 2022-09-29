@@ -5,6 +5,7 @@ a_dictionary = {'John': 12, 'Bob': 14, 'Mike': 14, 'Molly': 16, 'Adam': 10}
 best_key = best_score(a_dictionary)
 print("Best score: {}".format(best_key))
 
-best_key = best_score(None)
+dict_ = {}
+best_key = best_score({})
 print("Best score: {}".format(best_key))
 
