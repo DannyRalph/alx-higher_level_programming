@@ -3,6 +3,8 @@
 class Square:
     """
     wrote a class Square that defines a square by:(based on 1-square.py
+    Args:
+    size (int): Size of the class square
     """
     def __init__(self, size=0):
         self.__size = int(size)
